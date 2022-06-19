@@ -58,7 +58,7 @@ const Registro = () => {
     return (
         <div className="main-registro">
             <Navbar1 />
-            <Row className="mt-3 justify-content-center">
+            <Row className="mx-auto justify-content-center">
                 <Col lg="5">
                     <Alert dismissible variant="danger" onClose={() => setError(false)} show={error}>
                         Error regitrando el usuario
